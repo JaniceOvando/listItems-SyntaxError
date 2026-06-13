@@ -7,17 +7,23 @@ class ItemsController {
     }
 
     // Create the addItem method
-    addItem(name, description,imageUrl) {
+    addItem(name, description,createdAt) {
         const item = {
             // Increment the currentId property
             id: this.currentId++,
             name: name,
             description: description,
-            imageUrl: imageUrl
+            img: 'https://via.placeholder.com/150?text=MT',
+            createdAt: createdAt
         };
 
         // Push the item to the items property
         this.items.push(item);
+    }
+
+    //Returns all items
+    getItems() {
+        return this.items;
     }
 }
 
