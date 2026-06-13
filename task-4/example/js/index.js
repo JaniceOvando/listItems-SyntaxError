@@ -9,7 +9,7 @@ const defaultItems = [
         img: 'https://api.iconify.design/mdi:package-variant.svg?color=%2316a34a&width=120',
         description: 'Envío estándar de paquetes pequeños y medianos.' },
 
-    { name: 'Empaquetado Especial',
+    { name: 'Empaquetados Especiales',
         img: 'https://api.iconify.design/mdi:package-variant-closed.svg?color=%2316a34a&width=120',
         description: 'Servicio de empaquetado seguro con materiales de protección.' },
 
